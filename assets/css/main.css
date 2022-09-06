@@ -188,8 +188,11 @@
   .about-h2 {
     font-weight: 500;
     font-size: 40px;
-    line-height: 72px;
-    right: 1050px;
+  position: relative;  
+  text-align: left;  
+  padding: 3rem;
+  margin: 0;
+
   }
 
   .message {
@@ -197,8 +200,8 @@
     font-weight: 275;
     font-size: 32px;
     line-height: 48px;
-    text-align: center;
     display: grid;
-    justify-items: center;
     flex: auto;
+    margin: 0 auto auto 3rem;
+    text-align: justify;
   }
